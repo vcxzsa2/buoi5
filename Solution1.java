@@ -1,14 +1,14 @@
 package buoi5;
 
-public class Solution1 {
-    class Node {
+
+    class Node1 {
         int data;
         Node next;
-        Node(int d) {data = d; next = null; }
+        Node1(int d) {data = d; next = null; }
     }
 
 
-    class Solution {
+    class Solution1 {
         // Function to remove duplicates from sorted linked list.
         Node removeDuplicates(Node head) {
             // Your code here
